@@ -1,0 +1,52 @@
+.component1 {
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-top: 93px;
+}
+
+.component1>div:first-child {
+    width: 57px;
+    height: 420px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.component1>div:first-child {
+    margin-right: 60px;
+}
+
+.component1>div:first-child p {
+    margin: -19px;
+}
+
+.component1>div:last-child p {
+    margin-top: 0;
+    width: 471px;
+    height: 119px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.component1>div:last-child button {
+    width: 146px;
+    height: 46px;
+    border-radius: 60px;
+    background-color: #e84862;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border: none;
+}

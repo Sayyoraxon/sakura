@@ -1,0 +1,8 @@
+.mainContent {
+    position: relative;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    z-index: 6;
+}

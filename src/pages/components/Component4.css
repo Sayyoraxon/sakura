@@ -1,0 +1,71 @@
+.component4 {
+    margin-top: 156px;
+    max-width: 1240px;
+    margin-left: auto;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.component4>div {
+    width: 995px;
+    height: 500px;
+    display: flex;
+    margin-right: 98px;
+}
+
+.component4>div>div:first-child {
+    width: 87px;
+    height: 426px;
+    margin-top: 60px;
+    margin-right: 74px;
+}
+
+.component4>div>div:first-child p {
+    margin: 0;
+    margin-top: -20px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.component4 img {
+    width: 327px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 220px;
+    margin-right: 85px;
+}
+
+.component4>div>div:last-child {
+    margin-top: 58px;
+    width: 437px;
+}
+
+.component4>div>div:last-child p {
+    margin: 0;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.component4>div>div:last-child button {
+    width: 186px;
+    height: 46px;
+    margin-top: 50px;
+    border-radius: 60px;
+    border: 1px solid #C0C0C8;
+    background: #FFF;
+    color: #E84862;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    /* 152.941% */
+}

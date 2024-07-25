@@ -1,0 +1,108 @@
+.component6 {
+    margin-top: 272px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 348px;
+    width: 1040px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.component6>div {
+    position: relative;
+    padding: 0 70px;
+    width: 680px;
+    height: 488px;
+    border-radius: 16px;
+    border: 1px solid #C0C0C8;
+    background: #FFF;
+}
+
+.component6>div>p {
+    margin-top: 56px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 47px;
+}
+
+.component6>div>label,
+.component6>div>div>label {
+    margin-top: 17px;
+    margin-left: 20px;
+    margin-bottom: 7px;
+    display: block;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.component6>div>label>input,
+.component6>div>div>label>input {
+    display: block;
+    margin-left: -20px;
+    width: 373px;
+    height: 54px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    border: 1px solid #C0C0C8;
+    background: #FFF;
+    padding-left: 20px;
+    outline: none;
+    color: #2C2E46;
+}
+
+.component6>div>div {
+    display: flex;
+}
+
+
+.component6 ::placeholder {
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.2;
+}
+
+.component6>div>div>label>input {
+    width: 224px;
+    margin-right: 10px;
+}
+
+.component6 button {
+    margin-top: 54px;
+    width: 117px;
+    height: 46px;
+    background-color: #e84862;
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    border-radius: 60px;
+    border: none;
+}
+
+.absDiv {
+    width: 499.036px;
+    height: 562.526px;
+    transform: rotate(33.401deg);
+    flex-shrink: 0;
+    background: url("../../assets/img/Rectangle.png") lightgray 0px 0px / 100% 100% no-repeat;
+    opacity: 0.5;
+    filter: blur(50px);
+    position: absolute;
+    top: 170px;
+    left: 195px;
+    z-index: -1;
+}

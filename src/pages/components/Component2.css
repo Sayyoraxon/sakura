@@ -1,0 +1,78 @@
+.component2 {
+    margin-top: 111px;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.component2>div:first-child {
+    margin-top: 8px;
+    width: 57px;
+    height: 420px;
+    margin-right: 60px;
+}
+
+.component2>div:first-child p {
+    margin: -19px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.textDiv {
+    max-width: 459px;
+    margin-right: 70px;
+}
+
+.textDiv p {
+    margin-top: 0;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.textDiv p:first-child {
+    margin-bottom: 38px;
+}
+
+.component2>div:last-child {
+    width: 380px;
+    height: 78px;
+    border-radius: 3px;
+    border: 1px solid #C0C0C8;
+    padding: 0 21px;
+    display: flex;
+    align-items: center;
+}
+
+.component2>div:last-child p {
+    margin: 0;
+    margin-right: 13px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+
+.component2>div:last-child button {
+    width: 114px;
+    height: 46px;
+    border-radius: 60px;
+    border: none;
+    background: #E84862;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 152.941% */
+}
+
