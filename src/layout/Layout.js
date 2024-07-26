@@ -52,58 +52,37 @@ const Layout = () => {
                 </nav>
             </div>
 
-            <ParallaxProvider>
-                <div className=''>
+            <div className='layout'
+            onScroll={(e)=>setleft(e.target.scrollTop)}>
 
-
-                    <div className='parallax' id="parallax">
-                        <Parallax translateY={["620px", "-300px"]}>
-                          <div className='flex'>
-
-                        <div className='div1'>
-                            Ханами Сакура и фестиваль цветения сакуры в Японии
-                        </div>
-
-                        <div className='div2'>
-                            <button className="play-button">
-                                <span className="play-icon"></span>
-                            </button>
-                        </div>
-
-                        </div> 
-                        </Parallax>
-
-                        <Parallax scale={[2.2, 0]} translateX={["-200px", "400px"]} translateY={["-100px", "100px"]} className='img1'>
-                            <img src={sun} alt="image" />
-                        </Parallax>
-
-                        <Parallax className='img3'>
-                        <img src={shadow} alt="image" />
-                        </Parallax>
-
-                        <Parallax scale={[1.4, 0]}  translateX={["200px", "-400px"]} className='img2'>
-                        <img src={sakura} alt="image"  />
-                        </Parallax> 
-                        
-                        <Parallax scale={[2.2, 0.3]} translateY={["-500px", "100px"]} >
-                            <img src={table} alt="image" className='img4' />
-                        </Parallax>
-
-                        <Parallax scale={[2, 0.3]} translateY={["800px", "300px"]}>
-                            <img src={mountain1} alt="mountain" className='img6'/>
-                        </Parallax>
-
-                        <Parallax scale={[2 , 0.3]} translateY={["500px", "10px"]} >
-                         <img src={mountain} alt="mountain" className='img5'/>
-                        </Parallax>
-                        <img src={sakura1} alt="sakura" className='img7'
-                            style={{ left: `${width > 1440 ? 1800 : 1400 - left * 2.2}px`, top: `${width > 1440 ? 638 : 350 - left * 0.6}px` }} />
+                <div className='parallax' id="parallax">
+                    <div className='div1'
+                        style={{top: `${width>1440 ? 177 : 30 -2*left}px`, left: width>1440 ? "440px" : "200px"}}
+                    >
+                        Ханами Сакура и фестиваль цветения сакуры в Японии
                     </div>
-
-
-
+                    <div className='div2'
+                        style={{top: `${width>1440 ? 177 : 30-2*left}px`, left: width>1440 ? "925px" : "700px"}}>
+                        <button className="play-button">
+                            <span className="play-icon"></span>
+                        </button>
+                    </div>
+                    <img src={sun} alt="image" className='img1'
+                        style={{ left: `${width > 1440 ? -178 + left * 3.1 : -178 + left * 1.5}px`, width: `${717 - left * 1.2}px`, top: width > 1440 ? "543px" : "250px" }} />
+                    <img src={sakura} alt="image" className='img2'
+                        style={{left: `${width>1440 ? 100 + left * 2 : 100}px`, width: `${717 - left * 1.6}px`, top: `${width > 1440 ? 538 + left * 0.3 : 250}px` }} />
+                    <img src={shadow} alt="image" className='img3'
+                        style={{ width: `${6470 - left * 4}px`, left: `${-2491 + left * 2.5}px`, top: `${width > 1440 ? 911 -left *0.7 : 618 - left * 0.8}px` }} />
+                    <img src={table} alt="image" className='img4'
+                        style={{ right: `${width>1440 ? 478 - left * 0.03 : 178- left * 0.01}px`, width: `${499 - left * 1.1}px`, top: width > 1440 ? "718px" : "430px" }} />
+                    <img src={mountain} alt="mountain" className='img5'
+                        style={{ left: `${width>1440 ? -1307 + left * 3.5 :-1307 + left * 2.8 }px`, top: `${width > 1440 ? 830 -left * 0.8 : 500 - left}px`, width: `${1845 - left}px` }} />
+                    <img src={mountain1} alt="mountain" className='img6'
+                        style={{ left: `${width>1440 ? -1107 + left * 3.5 : -1107 + left * 2.8}px`, top: `${width > 1440 ? 849 - left * 0.8 : 500 - left}px`, width: `${1645 - left}px` }} />
+                    <img src={sakura1} alt="sakura" className='img7'
+                        style={{ right: `${width > 1440 ? -1000 + left * 2.2 : -1000 + left * 2.6}px`, top: `${width > 1440 ? 638 - left * 0.4 : 350 - left * 0.6}px` }} />
                 </div>
-            </ParallaxProvider>
+            </div>
 
                 
 
