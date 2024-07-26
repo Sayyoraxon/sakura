@@ -186,6 +186,12 @@ nav button {
     z-index: 7;
 }
 
+.img8 {
+    position: absolute;
+    width: 1605px;
+    z-index: 7;
+}
+
 @media only screen and (max-width: 1440px) {
     .parallax {
         width: 100%;

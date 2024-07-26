@@ -7,9 +7,9 @@ import shadow from "../assets/img/shadow.png"
 import table from "../assets/img/table.png"
 import mountain from "../assets/img/mountain.png"
 import mountain1 from "../assets/img/mountain1.png"
+import stones from "../assets/img/stones.png"
 import useWindowDimensions from './useWindowDimensions';
 import bar from '../assets/icons/bar.svg'
-import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 
 const Layout = () => {
@@ -56,8 +56,9 @@ const Layout = () => {
                 onScroll={(e) => setleft(e.target.scrollTop)}>
 
                 <div className='parallax' id="parallax"
-                style={{ top: `${width > 1440 ? 177 - 2 * left : 30 - 2 * left}px`}}>
-                    <div className='flex'>
+                >
+                    <div className='flex'
+                    style={{ top: `${width > 1440 ? 177 - 2 * left : 30 - 2 * left}px`}}>
                         <div className='div1'>
                             Ханами Сакура и фестиваль цветения сакуры в Японии
                         </div>
@@ -70,19 +71,21 @@ const Layout = () => {
 
 
                     <img src={sun} alt="image" className='img1'
-                        style={{ left: `${width > 1440 ? -178 + left * 3.1 : -178 + left * 1.5}px`, width: `${717 - left * 1.2}px`, top: width > 1440 ? "543px" : "250px" }} />
+                        style={{ left: `${width > 1440 ? -178 + left * 3.1 : -178 + left * 1.5}px`, width: `${717 - left * 1.2}px`, top: width > 1440 ? `${380 + left * 0.8}px` : "250px" }} />
                     <img src={sakura} alt="image" className='img2'
-                        style={{ left: `${width > 1440 ? 100 + left * 2 : 100}px`, width: `${717 - left * 1.6}px`, top: `${width > 1440 ? 538 + left * 0.3 : 250}px` }} />
+                        style={{ left: `${width > 1440 ? 100 + left * 2 : 100}px`, width: `${717 - left * 1.7}px`, top: `${width > 1440 ? 380 + left * 0.9 : 250}px` }} />
                     <img src={shadow} alt="image" className='img3'
-                        style={{ width: `${6470 - left * 4}px`, left: `${-2491 + left * 2.5}px`, top: `${width > 1440 ? 911 - left * 0.7 : 618 - left * 0.8}px` }} />
+                        style={{ width: `${6470 - left * 4}px`, left: `${-2491 + left * 2.5}px`, top: `${width > 1440 ? 750 + left * 0.1 : 618 - left * 0.8}px` }} />
                     <img src={table} alt="image" className='img4'
-                        style={{ right: `${width > 1440 ? 478 - left * 0.03 : 178 - left * 0.01}px`, width: `${499 - left * 1.1}px`, top: width > 1440 ? "718px" : "430px" }} />
+                        style={{ right: `${width > 1440 ? 478 - left * 0.03 : 178 - left * 0.01}px`, width: `${499 - left * 1.1}px`, top: width > 1440 ? `${560+left*0.6}px` : "430px" }} />
                     <img src={mountain} alt="mountain" className='img5'
-                        style={{ left: `${width > 1440 ? -1307 + left * 3.5 : -1307 + left * 2.8}px`, top: `${width > 1440 ? 830 - left * 0.8 : 500 - left}px`, width: `${1845 - left}px` }} />
+                        style={{ left: `${width > 1440 ? -1307 + left * 4.4 : -1307 + left * 2.8}px`, top: `${width > 1440 ? 1030 - left * 1.3 : 500 - left}px`, width: `${1845 - left * 2.3}px` }} />
                     <img src={mountain1} alt="mountain" className='img6'
-                        style={{ left: `${width > 1440 ? -1107 + left * 3.5 : -1107 + left * 2.8}px`, top: `${width > 1440 ? 849 - left * 0.8 : 500 - left}px`, width: `${1645 - left}px` }} />
+                        style={{ left: `${width > 1440 ? -1107 + left * 4.4 : -1107 + left * 2.8}px`, top: `${width > 1440 ? 1049 - left * 1.3 : 500 - left}px`, width: `${1645 - left * 2.3}px` }} />
                     <img src={sakura1} alt="sakura" className='img7'
-                        style={{ right: `${width > 1440 ? -1000 + left * 2.2 : -1000 + left * 2.6}px`, top: `${width > 1440 ? 638 - left * 0.4 : 350 - left * 0.6}px` }} />
+                        style={{ right: `${width > 1440 ? -1000 + left * 2.2 : -1000 + left * 2.6}px`, top: `${width > 1440 ? 638 - left * 0.3 : 350 - left * 0.6}px` }} />
+                    <img src={stones} alt="stones" className='img8'
+                    style={{left: width > 1440 ? `${-300 + left}px` : `${100}px`, top: width > 1440 ? `${1500-left*1.5}px` : `${900}px`, width: width > 1440 ? `${1605 - left * 2}px` : ``}}/>
                 </div>
             </div>
 
