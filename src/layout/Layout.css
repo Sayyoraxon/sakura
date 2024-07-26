@@ -81,10 +81,10 @@ nav button {
     width: 100%;
     justify-content: center;
     align-items: flex-start;
+    position: absolute;
 }
 
 .div1 {
-    position: absolute;
     width: 423px;
     height: 232px;
     color: #2C2E46;
@@ -97,7 +97,7 @@ nav button {
 }
 
 .div2 {
-    position: absolute;
+    position: relative;
     border: 236px;
     width: 555px;
     height: 280px;
