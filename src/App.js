@@ -1,3 +1,4 @@
+import { ParallaxProvider } from 'react-scroll-parallax';
 import './App.css'; // Import your CSS file for styling
 import Footer from './MainComponents/Footer';
 import Layout from './layout/Layout';

@@ -29,7 +29,7 @@
     display: inline-block;
     text-decoration: none;
     color: #2C2E46;
-    font-family: Roboto;
+    font-family: "Roboto", sans-serif;
     font-size: 17px;
     font-style: normal;
     font-weight: 400;
@@ -64,20 +64,26 @@ nav button {
 }
 
 .layout {
-    width: 1920px;
-    height: 750px;
+    width: 100%;
+    height: 1075px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
 .parallax {
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     position: relative;
 }
 
+.flex {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .div1 {
-    position: absolute;
     width: 423px;
     height: 232px;
     color: #2C2E46;
@@ -86,10 +92,11 @@ nav button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-right: 62px;
 }
 
 .div2 {
-    position: absolute;
+    position: relative;
     border: 236px;
     width: 555px;
     height: 280px;
@@ -133,49 +140,57 @@ nav button {
 .img1 {
     width: 717px;
     position: absolute;
-    left: -178px;
+    left: -150px;
+    top: 250px;
+}
+
+.img1 img {
+    width: 717px; 
 }
 
 .img2 {
     width: 765px;
     position: absolute;
-    top: 538px;
+    top: 260px;
     left: 238px;
-    z-index: 2;
+    z-index: 6;
+}
+
+.img2 img {
+    width: 765px
 }
 
 .img3 {
     width: 6470px;
     position: absolute;
-    top: 911px;
-    left: -2491px;
+    top: 650px;
+    left: -1491px;
+    z-index: 5;
 }
 
 .img4 {
     width: 499px;
     position: absolute;
-    top: 718px;
-    left: 1059px;
+    top: 460px;
+    right: 100px
 }
 
 .img5 {
-    width: 2779px;
-    position: absolute;
-    top: 710px;
-    left: -1907px;
+    width: 2379px;
+    top: 800px;
+    left: -1400px;
     z-index: 3;
 }
 
 .img6 {
-    position: absolute;
     width: 1645px;
-    top: 879px;
-    left: -1107px;
+    top: 800px;
+    left: -907px;
     z-index: 2;
 }
 
 .img7 {
-    width: 965px;
+    width:1165px;
     position: absolute;
     top: 638px;
     left: 1800px;
@@ -185,6 +200,11 @@ nav button {
 @media only screen and (max-width: 1440px) {
     .parallax {
         width: 100%;
+        height: 1000px;
+    }
+
+    .layout {
+        height: 750px;
     }
 }
 
@@ -194,7 +214,8 @@ nav button {
         display: none;
     }
 
-    nav img, nav button {
+    nav img,
+    nav button {
         display: block;
     }
 
