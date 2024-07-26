@@ -81,7 +81,7 @@ const Layout = () => {
                         <img src={shadow} alt="image" />
                         </Parallax>
 
-                        <Parallax scale={[1.6, -0.3]}  translateX={["200px", "-400px"]}  className='img2'>
+                        <Parallax scale={[1.4, 0]}  translateX={["200px", "-400px"]} className='img2'>
                         <img src={sakura} alt="image"  />
                         </Parallax> 
                         

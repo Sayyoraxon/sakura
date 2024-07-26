@@ -140,8 +140,8 @@ nav button {
 .img1 {
     width: 717px;
     position: absolute;
-    left: -150px;
-    top: 250px;
+    left: -250px;
+    top: 300px;
 }
 
 .img1 img {
@@ -151,7 +151,7 @@ nav button {
 .img2 {
     width: 765px;
     position: absolute;
-    top: 260px;
+    top: 310px;
     left: 238px;
     z-index: 6;
 }
@@ -163,7 +163,7 @@ nav button {
 .img3 {
     width: 6470px;
     position: absolute;
-    top: 650px;
+    top: 700px;
     left: -1491px;
     z-index: 5;
 }
