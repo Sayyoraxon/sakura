@@ -57,10 +57,18 @@ const Layout = () => {
 
                 <div className='parallax' id="parallax"
                 >
-                    <div className='flex'
+                    <div className='flex1'
                     style={{ top: `${width > 1440 ? 177 - 2 * left : 30 - 2 * left}px`}}>
                         <div className='div1'>
                             Ханами Сакура и фестиваль цветения сакуры в Японии
+                        </div>
+                        <div className='div3'>
+                            <p>
+                            Начался Ханами Сакура и фестиваль цветения 
+                            </p>
+                            <h1>
+                            Сакуры в Японии
+                            </h1>
                         </div>
                         <div className='div2'>
                             <button className="play-button">
@@ -71,7 +79,7 @@ const Layout = () => {
 
 
                     <img src={sun} alt="image" className='img1'
-                        style={{ left: `${width > 1440 ? -178 + left * 3.1 : -178 + left * 1.5}px`, width: `${717 - left * 1.2}px`, top: width > 1440 ? `${380 + left * 0.8}px` : "250px" }} />
+                        style={{ left: `${ width > 1440 ? -178 + left * 3.1 : width < 500 ? -100 : -178 + left * 1.5}px`, width: width < 500 ? `${250}px` : `${717 - left * 1.2}px`, top: width > 1440 ? `${380 + left * 0.8}px` : "250px" }} />
                     <img src={sakura} alt="image" className='img2'
                         style={{ left: `${width > 1440 ? 100 + left * 2 : 100}px`, width: `${717 - left * 1.7}px`, top: `${width > 1440 ? 380 + left * 0.9 : 250}px` }} />
                     <img src={shadow} alt="image" className='img3'
@@ -85,7 +93,7 @@ const Layout = () => {
                     <img src={sakura1} alt="sakura" className='img7'
                         style={{ right: `${width > 1440 ? -1000 + left * 2.2 : -1000 + left * 2.6}px`, top: `${width > 1440 ? 638 - left * 0.3 : 350 - left * 0.6}px` }} />
                     <img src={stones} alt="stones" className='img8'
-                    style={{left: width > 1440 ? `${-300 + left}px` : `${100}px`, top: width > 1440 ? `${1500-left*1.5}px` : `${900}px`, width: width > 1440 ? `${1605 - left * 2}px` : ``}}/>
+                    style={{left: width > 1440 ? `${-300 + left}px` : `${-100 + left}px`, top: width > 1440 ? `${1500-left*1.5}px` : `${900-left * 0.8}px`, width: width > 1440 ? `${1605 - left * 2}px` : `${1300 - left * 3}px`}}/>
                 </div>
             </div>
 

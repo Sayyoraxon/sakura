@@ -76,12 +76,13 @@ nav button {
     overflow-y: hidden;
 }
 
-.flex {
+.flex1 {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: flex-start;
     position: absolute;
+    top: 177px;
 }
 
 .div1 {
@@ -98,10 +99,37 @@ nav button {
 
 .div2 {
     position: relative;
-    border: 236px;
+    border-radius: 236px;
     width: 555px;
     height: 280px;
     background-image: url(../assets/img/hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div3 p {
+    margin-top: 30px;
+    margin-left: 12px;
+    width: 204px;
+    color: #9596A2;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.div3 h1 {
+    width: 335px;
+    margin-top: 7px;
+    margin-left: 12px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .play-button {
@@ -114,7 +142,6 @@ nav button {
     height: 46px;
     background-color: #fff;
     border: 2px solid #fff;
-    /* Border color */
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
@@ -123,24 +150,23 @@ nav button {
     border-radius: 50%;
 }
 
-/* Play icon styles */
 .play-icon {
     position: absolute;
     top: 50%;
-    left: 58%;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 10px 0 10px 17.3px;
-    /* Adjust this value to change the size of the play icon */
-    border-color: transparent transparent transparent #000;
-    /* Adjust color to match button */
+    border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent #E84862;
 }
 
 .img1 {
     width: 800px;
     position: absolute;
+    left: -178px;
+    top: 380px;
 }
 
 
@@ -149,46 +175,56 @@ nav button {
     left: 100px;
     position: absolute;
     z-index: 4;
+    left: 100px;
+    top: 380px;
 }
 
 .img3 {
     width: 6470px;
     top: 618px;
     position: absolute;
+    left: -2491px;
+    top: 750px;
     z-index: 3;
 }
 
 .img4 {
     width: 499px;
     position: absolute;
-    top: 460px;
-    right: 100px;
+    top: 560px;
+    right: 478px;
     z-index: 6;
 }
 
 .img5 {
     position: absolute;
     width: 2779px;
-    top: 422px;
+    left: -1307px;
+    top: 1030px;
     z-index: 6;
 }
 
 .img6 {
     position: absolute;
     width: 1645px;
-    top: 591px;
+    left: -1107px;
+    top: 1049px;
     z-index: 5;
 }
 
 .img7 {
-    width:1165px;
+    width: 1165px;
     position: absolute;
+    top: -1000px;
+    right: 638px;
     z-index: 7;
 }
 
 .img8 {
     position: absolute;
     width: 1605px;
+    left: -300px;
+    top: 1500px;
     z-index: 7;
 }
 
@@ -200,6 +236,50 @@ nav button {
 
     .layout {
         height: 750px;
+    }
+
+    .flex1 {
+        top: 30px;
+    }
+
+    .img1 {
+        left: -178px;
+        top: 250px;
+    }
+
+    .img2 {
+        left: 100px;
+        top: 250px;
+    }
+
+    .img3 {
+        left: -2491px;
+        top: 618px;
+    }
+
+    .img4 {
+        top: 430px;
+        right: 178px;
+    }
+
+    .img5 {
+        left: -1307px;
+        top: 500px;
+    }
+
+    .img6 {
+        left: -1107px;
+        top: 500px;
+    }
+
+    .img7 {
+        top: -1000px;
+        right: 350px;
+    }
+
+    .img8 {
+        left: -100px;
+        top: 900px;
     }
 }
 
@@ -214,7 +294,37 @@ nav button {
         display: block;
     }
 
-    nav button {
-        margin-right: 24px;
+
+}
+
+@media only screen and (max-width:500px) {
+
+    .header {
+        height: 94px;
     }
+    
+    .div1 {
+        display: none;
+    }
+
+    .play-button {
+        width: 90px;
+        height: 90px;
+    }
+
+    .play-icon {
+        left: 55%;
+        border-width: 17px 0 17px 30px;
+    }
+
+    .flex1 {
+        flex-direction: column;
+    }
+
+    .div2 {
+        margin-top: 38px;
+        width: 375px;
+        height: 216px;
+    }
+
 }
