@@ -109,7 +109,8 @@ nav button {
 }
 
 .div3 p {
-    margin-top: 30px;
+    margin-top: 0px;
+    margin-bottom: 0;
     margin-left: 12px;
     width: 204px;
     color: #9596A2;
@@ -123,6 +124,7 @@ nav button {
 .div3 h1 {
     width: 335px;
     margin-top: 7px;
+    margin-bottom: 38px;
     margin-left: 12px;
     color: #2C2E46;
     font-family: "Roboto", sans-serif;
@@ -302,7 +304,7 @@ nav button {
     .header {
         height: 94px;
     }
-    
+
     .div1 {
         display: none;
     }
@@ -322,9 +324,16 @@ nav button {
     }
 
     .div2 {
-        margin-top: 38px;
         width: 375px;
         height: 216px;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+    .img7 {
+        width: 500px;
+        z-index: 8;
+    }
+
 
 }
