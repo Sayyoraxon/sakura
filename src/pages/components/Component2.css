@@ -76,3 +76,9 @@
     line-height: 26px; /* 152.941% */
 }
 
+@media only screen and (max-width: 500px) {
+    .component2{
+        display: none;
+    }
+}
+

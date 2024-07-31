@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 348px;
-    width: 1040px;
+    width: 944px;
     display: flex;
     justify-content: flex-end;
 }
@@ -46,6 +46,7 @@
 .component6>div>label>input,
 .component6>div>div>label>input {
     display: block;
+    margin-top: 7px;
     margin-left: -20px;
     width: 373px;
     height: 54px;
@@ -105,4 +106,85 @@
     top: 170px;
     left: 195px;
     z-index: -1;
+}
+
+.mobileVer {
+    display: none;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mobileVer p {
+    display: none;
+    margin: 0;
+    width: 195px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mobileVer img {
+    display: none;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 200, 0.2);
+}
+
+@media only screen and (max-width: 500px) {
+    .component6 {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .component6>div {
+        width: 335px;
+        height: 446px;
+        padding: 0px 25px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 28px 64px 0px rgba(30, 44, 71, 0.12);
+        border: none;
+    }
+
+    #none {
+        display: none;
+    }
+
+    .component6>div>div>label:last-child {
+        display: none;
+    }
+
+    .component6>div>div>label>input,
+    .component6>div>label>input,
+    .component6 button {
+        width: 285px;
+    }
+
+    .component6>div>div>label {
+        margin-top: 4px;
+    }
+
+    .component6 button {
+        margin-top: 28px;
+        height: 54px;
+    }
+
+    .component6>div>p {
+        display: none;
+    }
+
+    .mobileVer,
+    .mobileVer p, 
+    .mobileVer img {
+        display: block;
+    }
 }

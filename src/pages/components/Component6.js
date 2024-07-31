@@ -1,9 +1,16 @@
 import "./Component6.css"
+import warning from "../../assets/icons/warning.svg"
 
 const Component6 = () => {
   return (
     <div className='component6'>
         <div>
+            <div className="mobileVer">
+                <p>
+                    Вы хотите забронировать место? 
+                </p>
+                <img src={warning} alt="warning"/>
+            </div>
             <p>
                 Участвуйте в этом празднике 
             </p>
@@ -24,7 +31,7 @@ const Component6 = () => {
             <button>
                 Отправит
             </button>
-            <div className="absDiv">
+            <div className="absDiv" id="none">
 
             </div>
         </div>

@@ -1,0 +1,99 @@
+.component7 {
+    display: none;
+    position: relative;
+    padding: 0 25px;
+    z-index: 2;
+    width: 335px;
+    height: 446px;
+    margin-bottom: 85px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0px 28px 64px 0px rgba(30, 44, 71, 0.12);
+}
+
+.mobileVer2 {
+    padding-top: 30px;
+    margin-bottom: 18px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.mobileVer2 p {
+    margin: 0;
+    width: 195px;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mobileVer2 img {
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 200, 0.2);
+}
+
+.profilDiv {
+    margin-bottom: 15px;
+    padding: 0 14px;
+    width: 285px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: rgba(192, 192, 200, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilDiv p:first-child {
+    margin: 0;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profilDiv p:last-child {
+    margin: 0;
+    color: #2C2E46;
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.profilDiv>div:last-child {
+    display: flex;
+}
+
+.profilDiv>div:last-child>div {
+    position: relative;
+    margin-left: -14px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profilDiv>div:last-child>div img {
+    width: 44px;
+    height: 64px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 500px) {
+    .component7 {
+        display: block;
+    }
+}
