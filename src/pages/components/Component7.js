@@ -10,7 +10,7 @@ import profil5 from '../../assets/img/profil5.png'
 const Component7 = ({left}) => {
   return (
     <div className='component7'
-      style={{top: `${-200-left*6}px`}}
+      style={{top: `${-280-left*6}px`}}
     >
         <div className='mobileVer2'>
             <p>
