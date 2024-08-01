@@ -89,7 +89,7 @@ div.arrow img {
 
 @media only screen and (max-width: 500px) {
     .main {
-        max-height: 100vh;
+        max-height: 90vh;
         overflow: hidden;
     }
 }
