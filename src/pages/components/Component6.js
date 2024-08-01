@@ -5,7 +5,7 @@ const Component6 = ({left}) => {
 
   return (
     <div className='component6'
-        style={{ top: `${-500-left*7}px`}}
+        style={{ top: `${-500-left*6}px`}}
     >
         <div>
             <div className="mobileVer">
