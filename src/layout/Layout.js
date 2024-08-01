@@ -2,17 +2,22 @@ import Footer from '../MainComponents/Footer';
 import bar from '../assets/icons/bar.svg'
 import { Outlet } from 'react-router-dom';
 import './Layout.css'
+import MobileNav from './MobileNav';
 
 
-const Layout = () => {
+const Layout = ({close, setClose}) => {
  
 
     return (
         <>
+
+            {close && <MobileNav setClose={setClose}/>}
+
             <div className='header'>
 
                 <nav>
-                    <img src={bar} alt="bar" className='bar' />
+                    <img src={bar} alt="bar" className='bar' 
+                    onClick={()=>setClose(true)}/>
                     <button>
                         Live
                     </button>

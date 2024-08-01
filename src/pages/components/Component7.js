@@ -7,9 +7,11 @@ import profil3 from '../../assets/img/profil3.png'
 import profil4 from '../../assets/img/profil4.png'
 import profil5 from '../../assets/img/profil5.png'
 
-const Component7 = () => {
+const Component7 = ({left}) => {
   return (
-    <div className='component7'>
+    <div className='component7'
+      style={{top: `${-470-left*7}px`}}
+    >
         <div className='mobileVer2'>
             <p>
                 Люди делятся своими впечатлениями

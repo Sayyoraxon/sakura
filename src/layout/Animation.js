@@ -1,19 +1,17 @@
 import './Animation.css'
-import sakura from "../../assets/img/sakura.png"
-import sakura1 from "../../assets/img/sakura1.png"
-import sun from "../../assets/img/sun.png"
-import shadow from "../../assets/img/shadow.png"
-import table from "../../assets/img/table.png"
-import mountain from "../../assets/img/mountain.png"
-import mountain1 from "../../assets/img/mountain1.png"
-import stones from "../../assets/img/stones.png"
-import useWindowDimensions from '../../layout/useWindowDimensions'
-import { useState } from 'react'
+import sakura from "../assets/img/sakura.png"
+import sakura1 from "../assets/img/sakura1.png"
+import sun from "../assets/img/sun.png"
+import shadow from "../assets/img/shadow.png"
+import table from "../assets/img/table.png"
+import mountain from "../assets/img/mountain.png"
+import mountain1 from "../assets/img/mountain1.png"
+import stones from "../assets/img/stones.png"
+import useWindowDimensions from './useWindowDimensions'
 
 
-const Animation = () => {
+const Animation = ({left, setleft}) => {
 
-    const [left, setleft] = useState()
 
     const { width } = useWindowDimensions()
 
@@ -58,7 +56,7 @@ const Animation = () => {
                     <img src={mountain1} alt="mountain" className='img6'
                         style={{ left: `${width<500 ? -890 + left * 3.5 : width > 1440 ? -1107 + left * 4.4 : -1107 + left * 2.8}px`, top: `${width<500 ? 794 - left * 1.4 : width > 1440 ? 1049 - left * 1.3 : 500 - left}px`, width: `${width<500 ? 1200 - left * 3.5 : 1645 - left * 2.3}px` }} />
                     <img src={sakura1} alt="sakura" className='img7'
-                        style={{ right: `${width<500 ? -900 + left * 3 : width > 1440 ? -1000 + left * 2.2 : -1000 + left * 2.6}px`, top: `${width < 500 ? 800 - left : width > 1440 ? 638 - left * 0.3 : 350 - left * 0.6}px` }} />
+                        style={{ right: `${width<500 ? -900 + left * 3 : width > 1440 ? -1000 + left * 2.2 : -1000 + left * 2.6}px`, top: `${width < 500 ? 1000 - left : width > 1440 ? 638 - left * 0.3 : 350 - left * 0.6}px` }} />
                     <img src={stones} alt="stones" className='img8'
                     style={{left:width< 500 ? -300 +left : width > 1440 ? `${-300 + left}px` : `${-100 + left}px`, top: width < 500 ? 1200 - left * 2.5 : width > 1440 ? `${1500-left*1.5}px` : `${900-left * 0.8}px`, width: width > 1440 ? `${1605 - left * 2}px` : `${1300 - left * 3}px`}}/>
                 </div>

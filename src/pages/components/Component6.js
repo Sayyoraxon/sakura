@@ -1,9 +1,12 @@
 import "./Component6.css"
 import warning from "../../assets/icons/warning.svg"
 
-const Component6 = () => {
+const Component6 = ({left}) => {
+
   return (
-    <div className='component6'>
+    <div className='component6'
+        style={{ top: `${-500-left*7}px`}}
+    >
         <div>
             <div className="mobileVer">
                 <p>
