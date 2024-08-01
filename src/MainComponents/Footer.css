@@ -73,6 +73,18 @@
     right: -120px;
 }
 
+@media only screen and (max-width: 1040px) {
+    .footer {
+        padding-left: 12px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .footer img {
+        width: 500px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .footer {
         display: none;

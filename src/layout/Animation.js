@@ -23,9 +23,52 @@ const Animation = ({left, setleft}) => {
                 <div className='parallax' id="parallax"
                 >
                     <div className='flex1'
-                    style={{ top: `${width > 1440 ? 177 - 2 * left : 30 - 2 * left}px`}}>
+                    style={{ top: `${width > 1440 ? 84 - 2 * left : 10 - 2 * left}px`}}>
                         <div className='div1'>
-                            Ханами Сакура и фестиваль цветения сакуры в Японии
+                            <div>
+                                <p>花</p>
+                                <p>見</p>
+                                <p>桜</p>
+                                <p>と</p>
+                            </div>
+
+                            <div>
+                                <p>日</p>
+                                <p>本</p>
+                                <p>の</p>
+                            </div>
+
+                            <div>
+                                <p>桜</p>
+                                <p>ま</p>
+                                <p>つ</p>
+                                <p>り</p>
+                            </div>
+
+                            <div>
+                                <p>さ</p>
+                                <p>く</p>
+                                <p>ら</p>
+                                <p>は</p>
+                                <p>単</p> 
+                            </div>
+
+                            <div>
+                                <p>な</p>
+                                <p>る</p>
+                                <p>花</p>
+                                <p>木</p>
+                                <p>で</p>
+                                <p>は</p>
+                            </div>
+
+                            <div>
+                                <p>あ</p>
+                                <p>り</p>
+                                <p>ま</p>
+                                <p>せ</p>
+                                <p>ん</p>
+                            </div>
                         </div>
                         <div className='div3'>
                             <p>
@@ -50,7 +93,7 @@ const Animation = ({left, setleft}) => {
                     <img src={shadow} alt="image" className='img3'
                         style={{ width: `${6470 - left * 4}px`, left: `${-2491 + left * 2.5}px`, top: `${width<500 ? 578 - left * 0.45 : width > 1440 ? 750 + left * 0.1 : 618 - left * 0.8}px` }} />
                     <img src={table} alt="image" className='img4'
-                        style={{ right: `${width< 500 ? -70 - left * 0.6 : width > 1440 ? 478 - left * 0.03 : 178 - left * 0.01}px`, width: `${width<500 ? 175 - left * 0.4 : 499 - left * 1.1}px`, top: width< 500 ? `${530}px` : width > 1440 ? `${560+left*0.6}px` : "430px" }} />
+                        style={{ right: `${width< 900 ? 0 : width< 500 ? -70 - left * 0.6 : width > 1440 ? 478 - left * 0.03 : 178 - left * 0.01}px`, width: `${width<500 ? 175 - left * 0.4 : 499 - left * 1.1}px`, top: width< 500 ? `${530}px` : width > 1440 ? `${560+left*0.6}px` : "430px" }} />
                     <img src={mountain} alt="mountain" className='img5'
                         style={{ left: `${width<500 ? -900 + left * 3.5 : width > 1440 ? -1307 + left * 4.4 : -1307 + left * 2.8}px`, top: `${width<500 ? 800- left * 1.4 : width > 1440 ? 1030 - left * 1.3 : 500 - left}px`, width: `${width<500 ? 1200 - left * 3.5 : 1845 - left * 2.3}px` }} />
                     <img src={mountain1} alt="mountain" className='img6'

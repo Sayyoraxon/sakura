@@ -95,6 +95,23 @@
     line-height: 32px;
 }
 
+@media only screen and (max-width: 1040px) {
+    .component5 {
+        padding: 0 12px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .map img {
+        margin-left: 0;
+    }
+
+    .last {
+        margin-right: 12px;
+    }
+}
+
+
 @media only screen and (max-width: 500px) {
     .component5{
         display: none;

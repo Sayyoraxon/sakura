@@ -22,13 +22,13 @@ const MobileNav = ({setClose}) => {
             <div className="wavy">
                 <img src={line} alt="line" />
             </div>
-            <NavLink>
+            <NavLink onClick={()=>setClose(false)}>
                 О Празднике
             </NavLink>
-            <NavLink to="impression">
+            <NavLink to="impression" onClick={()=>setClose(false)}>
                 Впечатлении
             </NavLink>
-            <NavLink>
+            <NavLink onClick={()=>setClose(false)}>
                 Бронировать место
             </NavLink>
             <p className="text">

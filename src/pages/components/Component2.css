@@ -14,7 +14,8 @@
 }
 
 .component2>div:first-child p {
-    margin: -19px;
+    margin: -13px;
+    margin-left: 0;
     color: #2C2E46;
     font-family: "Roboto", sans-serif;
     font-size: 52px;
@@ -74,6 +75,31 @@
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 152.941% */
+}
+
+@media only screen and (max-width: 1040px) {
+    .component2 {
+        padding: 0 12px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .component2 {
+        flex-wrap: wrap;
+    }
+
+    .textDiv {
+        width: 350px;
+        max-width: 100%;
+        margin-right: 0;
+        flex-grow: 1;
+    }
+
+    .component2>div:last-child{
+        margin: 30px auto 0 auto
+    }
+
+    
 }
 
 @media only screen and (max-width: 500px) {

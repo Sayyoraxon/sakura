@@ -17,12 +17,12 @@
     width: 87px;
     height: 426px;
     margin-top: 60px;
-    margin-right: 74px;
+    margin-right: 50px;
 }
 
 .component4>div>div:first-child p {
     margin: 0;
-    margin-top: -20px;
+    margin-top: -13px;
     color: #2C2E46;
     font-family: "Roboto", sans-serif;
     font-size: 52px;
@@ -40,8 +40,31 @@
 }
 
 .component4>div>div:last-child {
+    position: relative;
     margin-top: 58px;
     width: 437px;
+}
+
+.shape1 {
+    width: 200px;
+    height: 51px;
+    rotate: 134deg;
+    background-color: rgba(255, 216, 216, 1);
+    position: absolute;
+    top: 14px;
+    left: -50px;
+    z-index: -1;
+}
+
+.shape2 {
+    width: 51px;
+    height: 71px;
+    rotate: -68deg;
+    background-color: rgba(255, 216, 216, 1);
+    position: absolute;
+    top: 8px;
+    left: 84px;
+    z-index: -1;
 }
 
 .component4>div>div:last-child p {
