@@ -1,9 +1,9 @@
 .component4 {
     margin-top: 156px;
-    max-width: 1498px;
-    margin-left: auto;
+    max-width: 100%;
     display: flex;
     overflow-x: scroll;
+    margin-left: auto;
 }
 
 .component4>div {
@@ -11,6 +11,10 @@
     height: 500px;
     display: flex;
     margin-right: 98px;
+}
+
+.component4>div:first-child {
+    margin-left: 27vh;
 }
 
 .component4>div>div:first-child {
@@ -93,6 +97,15 @@
     /* 152.941% */
 }
 
+@media only screen and (max-width: 1140px) {
+    .component4 {
+        padding: 0 12px;
+    }
+
+    .component4>div:first-child {
+        margin-left: 0;
+    }
+}
 
 @media only screen and (max-width: 500px) {
     .component4{

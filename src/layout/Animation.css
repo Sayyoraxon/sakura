@@ -17,7 +17,7 @@
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-    top: 177px;
+    top: 84px;
 }
 
 .div1 {
@@ -29,7 +29,6 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-right: 52px;
     display: flex;
 }
 
@@ -54,10 +53,10 @@
     border-radius: 236px;
     width: 555px;
     height: 280px;
-    background-image: url(../assets/img/hero.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.div2 video {
+    border-radius: 236px;
 }
 
 .div3 {
@@ -91,7 +90,7 @@
 }
 
 .play-button {
-    display: block;
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -111,7 +110,7 @@
 .play-icon {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 58%;
     transform: translate(-50%, -50%);
     width: 0;
     height: 0;
