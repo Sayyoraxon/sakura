@@ -80,7 +80,7 @@ const Animation = ({ left, setleft }) => {
                             </h1>
                         </div>
                         <div className='div2'>
-                        <video width="560" height="315" autoPlay loop muted>
+                        <video autoPlay loop muted>
                 <source src={video} type="video/mp4" />
             </video>
                             <button className="play-button">

@@ -57,6 +57,8 @@
 
 .div2 video {
     border-radius: 236px;
+    width: 555px;
+    height: 280px;
 }
 
 .div3 {
@@ -251,6 +253,12 @@
     }
 }
 
+@media only screen and (max-width: 850px){
+    .div1 {
+        display: none;
+    }
+}
+
 @media only screen and (max-width:500px) {
 
     .layout {
@@ -280,7 +288,7 @@
         flex-direction: column;
     }
 
-    .div2 {
+    .div2, .div2 video {
         width: 375px;
         height: 216px;
         margin-left: auto;
