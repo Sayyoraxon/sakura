@@ -38,6 +38,10 @@
     padding-right: 40px;
 }
 
+.header a:hover {
+    opacity: 1;
+}
+
 .header div:last-child a {
     opacity: 1;
     padding-right: 0;
