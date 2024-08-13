@@ -45,7 +45,7 @@
 .component2>div:last-child {
     width: 380px;
     height: 78px;
-    border-radius: 3px;
+    border-radius: 16px;
     border: 1px solid #C0C0C8;
     padding: 0 21px;
     display: flex;
